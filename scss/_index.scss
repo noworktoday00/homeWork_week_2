@@ -148,6 +148,13 @@ img:hover{
   color:white;
   li{
     margin-top: 16px;
+    a{
+      color: white;
+      text-decoration: none;
+      &:hover{
+        color:#891818;
+      }
+    }
   }
 
 }

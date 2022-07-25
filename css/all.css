@@ -340,4 +340,13 @@ img:hover {
 .contact li {
   margin-top: 16px;
 }
+
+.contact li a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact li a:hover {
+  color: #891818;
+}
 /*# sourceMappingURL=all.css.map */
