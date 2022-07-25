@@ -1,0 +1,333 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,900&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto";
+}
+
+.container {
+  width: 1224px;
+  margin: 0 auto;
+}
+
+.text-xxl {
+  font-size: 80px;
+  line-height: 106px;
+  font-weight: bold;
+}
+
+.text-xl {
+  font-size: 64px;
+  line-height: 84px;
+}
+
+.text-l {
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.text-m {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.text-s {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.text-xs {
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.banner {
+  width: 100%;
+  height: 958px;
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.banner .banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+}
+
+.banner .banner-text .text-m {
+  margin-top: 32px;
+}
+
+.banner .banner-text .social-media {
+  margin-top: 40px;
+}
+
+.banner .banner-text .social-media a {
+  margin-right: 16px;
+}
+
+.about {
+  padding: 56px;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.about .text-l {
+  font-weight: bold;
+}
+
+.about .intro {
+  margin: 20px 0 24px 0;
+}
+
+.about .works {
+  width: 384px;
+  margin: 0 auto;
+  padding-top: 28px;
+  border-top: 1px solid black;
+}
+
+.about .works .dot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .works .dot::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  margin-right: 16px;
+  background-color: #891818;
+  border-radius: 50%;
+}
+
+.brand {
+  background-color: black;
+  padding: 56px 0 160px 0;
+  text-align: center;
+  color: white;
+}
+
+.brand h2 {
+  margin-bottom: 12px;
+}
+
+.brand p {
+  margin-bottom: 32px;
+}
+
+.brand .brand-pic {
+  margin-top: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.brand .brand-pic img {
+  margin-bottom: 40px;
+}
+
+.other-works {
+  text-align: center;
+  padding: 56px 0 144px 0;
+}
+
+.other-works h2 {
+  font-weight: bold;
+}
+
+.other-works .other-works-collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 56px;
+}
+
+.other-works .other-works-collection .other-works-collection-card {
+  margin-bottom: 48px;
+}
+
+.other-works .other-works-collection .other-works-collection-card p {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.contact {
+  padding: 64px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.contact li {
+  margin-top: 16px;
+}
+/*# sourceMappingURL=all.css.map */
