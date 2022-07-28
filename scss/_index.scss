@@ -68,7 +68,7 @@ img:hover{
   }
 }
 .about {
-  padding: 56px;
+  padding: 56px 0 28px 0;
   text-align: center;
   h2 {
     margin-bottom: 40px;
@@ -89,6 +89,7 @@ img:hover{
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 28px;
       &::before{
         content: "";
         width: 22px;
@@ -102,7 +103,7 @@ img:hover{
 }
 .brand {
   background-color: black;
-  padding: 56px 0 160px 0;
+  padding: 56px 0 120px 0;
   text-align: center;
   color: white;
   h2{
@@ -126,6 +127,7 @@ img:hover{
   padding: 56px 0 96px 0;
   h2 {
     font-weight: bold;
+    margin-bottom: 16px;
   }
   .other-works-collection{
     display: flex;

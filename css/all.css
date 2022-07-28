@@ -235,7 +235,7 @@ img:hover {
 }
 
 .about {
-  padding: 56px;
+  padding: 56px 0 28px 0;
   text-align: center;
 }
 
@@ -269,6 +269,7 @@ img:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 28px;
 }
 
 .about .works .dot::before {
@@ -282,7 +283,7 @@ img:hover {
 
 .brand {
   background-color: black;
-  padding: 56px 0 160px 0;
+  padding: 56px 0 120px 0;
   text-align: center;
   color: white;
 }
@@ -317,6 +318,7 @@ img:hover {
 
 .other-works h2 {
   font-weight: bold;
+  margin-bottom: 16px;
 }
 
 .other-works .other-works-collection {
